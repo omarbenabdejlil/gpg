@@ -7,7 +7,7 @@
 gpg --full-generate-key 
 ```
 ![exemple](https://i.ibb.co/ZWCCtw1/full-gen.png)
-> Encrypt the file , in my exemple my file named by `omar.txt`so i got `omar.txt.asc`
+> Encrypt the file , in my exemple my file named by `omar.txt` so i got `omar.txt.asc`
 ```bash
 gpg --encrypt --sign --armor -r 802.killer@gmail.com omar.txt 
 ```
